@@ -1,0 +1,90 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+ :root{
+     --fonte1: 'Fjalla One', sans-serif;
+     --fonte2: Verdana, Geneva, Tahoma, sans-serif;
+     --fonte3: 'Kalam', cursive;
+}
+ *{
+     margin: 0px;
+     padding: 0px;
+}
+ header{
+     text-align: center;
+     background-color: black;
+}
+ header h1{
+     font-size: 7vw;
+     color: white;
+     font-family: var(--fonte1);
+     padding-top: 20px;
+}
+ header p{
+     font-size: 1.5vw;
+     color: white;
+     padding-bottom: 20px;
+}
+ header a{
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     font-family: var(--fonte2);
+}
+ header a:hover{
+     text-decoration: underline;
+}
+ .sfoto{
+     margin: 20px;
+     padding-bottom: 40px;
+}
+ .sfoto p{
+     font-family: var(--fonte3);
+     font-size: 4vw;
+}
+ .foto{
+     background-image: url(imagens/background001.jpg);
+     background-repeat: no-repeat;
+     background-position: right center;
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+     height: 60vw;
+}
+ .foto .conteudo{
+     position: absolute;
+     left: 2%;
+     top: 4vw;
+     bottom: 4vw;
+     background-color: rgba(0, 0, 0, 0.171);
+}
+ .foto .conteudo p{
+     color: white;
+     font-family: var(--fonte3);
+     font-size: 4vw;
+     margin-right: 10px;
+     margin-left: 10px;
+}
+#segundafoto{
+    background-image: url(imagens/background002.jpg);
+}
+ footer{
+     text-align: center;
+     background-color: black;
+     height: 20px;
+}
+ footer p{
+     color: white;
+     background-color: black;
+     font-family: var(--fonte2);
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+ footer a{
+     text-decoration: none;
+     color:white;
+     font-weight: bold;
+}
+ footer a:hover{
+     text-decoration: underline;
+}
