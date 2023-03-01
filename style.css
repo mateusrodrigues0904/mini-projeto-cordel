@@ -41,6 +41,8 @@
  .sfoto p{
      font-family: var(--fonte3);
      font-size: 4vw;
+     padding-bottom: 10px;
+     line-height: 1.5em;
 }
  .foto{
      background-image: url(imagens/background001.jpg);
@@ -66,6 +68,7 @@
      font-size: 4vw;
      margin-right: 10px;
      margin-left: 10px;
+     line-height: 1.5em;
 }
 #segundafoto{
     background-image: url(imagens/background002.jpg);
