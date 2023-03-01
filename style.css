@@ -50,6 +50,8 @@
      background-attachment: fixed;
      position: relative;
      height: 60vw;
+     box-shadow:-2px 4px 5px rgba(0, 0, 0, 0.315);
+
 }
  .foto .conteudo{
      position: absolute;
